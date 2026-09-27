@@ -1,0 +1,12 @@
+numbooks = int(input("Enter number of books: "))
+costbook = float(input("Enter cost per book: "))
+
+total = numbooks * costbook 
+
+if total > 50.00:
+    shippingcharge = 0
+else:
+    shippingcharge = 25
+
+print(f"Total: {total: .2f}")
+print(f"Shipping charge: {shippincharge: .2f}")

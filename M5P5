@@ -16,6 +16,6 @@ if incometax < 0
 
 print(f"Last name: {lastname}")
 print(f"Groos income: {grossincome: .2f}")
-print{f"Dependents: {dependents}")
+print(f"Dependents: {dependents}")
 print(f"Adjusted gross income: {adjgrossincome: .2f}")
 print(f"Income tax: {incometax: .2f}")

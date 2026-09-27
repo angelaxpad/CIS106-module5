@@ -2,7 +2,7 @@ item = input("Enter item: ")
 quantity = int(input("Enter quantity: "))
 
 if item == "A":
-    unirprice = 10.00
+    unitprice = 10.00
 else:
     unitprice = 20.00
 

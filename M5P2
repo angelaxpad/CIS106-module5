@@ -1,0 +1,13 @@
+item = input("Enter item: ")
+quantity = int(input("Enter quantity: "))
+
+if item == "A":
+    unirprice = 10.00
+else:
+    unitprice = 20.00
+
+extendedprice = quantity * unitprice 
+
+print(f"Item: {item}")
+print(f"Unit price: {unitprice: .2f}")
+print(f"Extended price: {extendedprice: .2f}")

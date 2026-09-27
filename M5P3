@@ -9,4 +9,4 @@ else:
     shippingcharge = 25
 
 print(f"Total: {total: .2f}")
-print(f"Shipping charge: {shippincharge: .2f}")
+print(f"Shipping charge: {shippingcharge: .2f}")

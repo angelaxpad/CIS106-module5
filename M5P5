@@ -1,0 +1,21 @@
+lastname = input("Enter last name: ")
+dependents = int(input("Enter number of dependents: "))
+grossincome = float(input("Enter gross income: "))
+
+adjgrossincome = grossincome - dependents * 12000
+
+if adjgrossincome > 50000:
+    taxrate = 0.20
+else:
+    taxrate = 0.10
+
+incometax = adjgrossincome * taxrate
+
+if incometax < 0
+    incometax = 100
+
+print(f"Last name: {lastname}")
+print(f"Groos income: {grossincome: .2f}")
+print{f"Dependents: {dependents}")
+print(f"Adjusted gross income: {adjgrossincome: .2f}")
+print(f"Income tax: {incometax: .2f}")
